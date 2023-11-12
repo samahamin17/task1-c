@@ -42,7 +42,7 @@ void registerUser() {
 
     if (strcmp(Active, "true") == 0 || strcmp(Active, "1") == 0){
         newUser.status.isActive = true;
-        printf("%s\n","menna allah" );
+        
     }
     else
         newUser.status.isActive = false;
